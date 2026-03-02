@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Blake Lemarr
+# DATE: 03/02/2026
+# BRIEF DESCRIPTION: A Program that gives a compliment to users who say yes but denies for other responses.  
 
 
 
@@ -15,14 +15,14 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+resp: str = input('Would you like a compliment? ')
 
+if resp == 'yes':
+    print('You have wonderful eyes.')
+else:
+    print('No compliment for you!')
 
-
-
-
-
-
-
+print('Thank you for playing.')
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -71,10 +71,6 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
-
-
-
-
+No
 
 '''
